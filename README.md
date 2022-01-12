@@ -19,7 +19,7 @@ npm i -D nodemon
    "test": "echo \"Error: no test specified\" && exit 1"
 },
 ```
-Sehingga menjadi seperti berikut
+Sehingga menjadi seperti berikut :
 ```
 "scripts": {
    "start": "node index.js",
