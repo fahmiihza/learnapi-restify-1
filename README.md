@@ -13,16 +13,16 @@ npm i restify restify-errors mongoose mongoose-timestamp
 ```
 npm i -D nodemon
 ```
-4. Buka file package.json lalu ubah script padaa bagian berikut, dari yang awalnya :
+4. Buka file package.json lalu ubah script pada bagian berikut, dari yang awalnya :
 ```
 "scripts": {
    "test": "echo \"Error: no test specified\" && exit 1"
 },
-
-//Sehingga menjadi
-
+```
+Sehingga menjadi seperti berikut
+```
 "scripts": {
    "start": "node index.js",
-   "dev": "node index.js",
+   "dev": "nodemon index.js",
 },
 ```
